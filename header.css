@@ -1,8 +1,8 @@
 header {
-    background-color: #e24647;
+    background-color: #e24647;    
 }
 h1, a{
-    color: #fff;
+    color: #fff ;
     
 }
 
@@ -12,5 +12,7 @@ h1 {
 
 a {
     text-decoration: none;
+    font-size: 21px;
+    
 }
 
