@@ -1,14 +1,8 @@
-.container {
-    height: 960px;
-    margin: 20% 0;
-}
-
 .header-store {
-    background-color: #e24647;
+    
     color: #fff;
     overflow: hidden;
-    margin: 0 115px;
-    padding: 55px 60px 95px;    
+    
 }
 
 .title {
