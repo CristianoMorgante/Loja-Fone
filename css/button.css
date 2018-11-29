@@ -11,6 +11,7 @@
     background-color: #252c41;    
     box-shadow: rgba(50, 50, 50, 0.36);
     text-decoration: none;
+    border: none;
 }
 
 .btn-buy.-cart{   

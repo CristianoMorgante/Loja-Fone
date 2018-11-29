@@ -1,0 +1,42 @@
+
+.headphone{
+    display: inline-block;
+    float: left;
+}
+
+.description-list{         
+    color: #fff;
+    font-family: 'Roboto', Arial, sans-serif;
+    width: 550px;
+    float: right;    
+}
+.title-description{
+    font-size: 25px;
+    margin-bottom: 100px;
+    
+
+}
+.price-description{
+    font-size: 20px;
+    margin-bottom: 28px;
+    word-spacing: 80px;
+}
+.price-description.-last{
+    margin-bottom: 75px;
+}
+
+.description-product{
+    font-size: 18px;
+    
+    margin-top: 30px;
+}
+.more-description{
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+.button{
+    display: inline-block;
+    margin-top: 98px;
+    margin-right: 50px;
+}
