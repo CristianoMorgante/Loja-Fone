@@ -1,42 +1,54 @@
-
-.headphone{
+.description-list {
     display: inline-block;
+    color: #fff;
+    font-family: 'Roboto', Arial, sans-serif;
+    height: 554px;
+}
+
+.description-list>.title-description {
+    font-size: 25px;
+    margin-top: 138px;
+    margin-bottom: 50px;
+}
+
+.assessments>.assessments-item {
+    margin-right: 9px;
+}
+
+.description-list>.price-description {
+    font-size: 20px;
+    margin-bottom: 28px;
+}
+
+.description-list>.price-description.-info {
+    width: 200px;
+    text-align: right;
+}
+
+.description-list>.reputation {
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+.price-description>.contrast {
+    text-transform: uppercase;
     float: left;
 }
 
-.description-list{         
-    color: #fff;
-    font-family: 'Roboto', Arial, sans-serif;
-    width: 550px;
-    float: right;    
-}
-.title-description{
-    font-size: 25px;
-    margin-bottom: 100px;
-    
-
-}
-.price-description{
-    font-size: 20px;
-    margin-bottom: 28px;
-    word-spacing: 80px;
-}
-.price-description.-last{
-    margin-bottom: 75px;
+.description-list>.price-description.-last {
+    margin-bottom: 72px;
 }
 
-.description-product{
+.description-list>.description-product {
     font-size: 18px;
-    
     margin-top: 30px;
 }
-.more-description{
-    text-decoration: none;
-    color: #ffffff;
-    
+
+.description-product {
+    line-height: 30px;
 }
-.button{
-    display: inline-block;
-    margin-top: 98px;
-    margin-right: 50px;
+
+.description-product>.more-description {
+    text-decoration: none;
+    color: inherit;
 }
