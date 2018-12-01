@@ -8,10 +8,10 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: #fff;
-    background-color: #252c41;    
-    box-shadow: rgba(50, 50, 50, 0.36);
+    background-color: #252c41;     
     text-decoration: none;
     border: none;
+    margin-right: 38px;
 }
 
 .btn-buy.-cart{   
@@ -19,4 +19,7 @@
     border: 2px solid #fff;
     width: 218px;
     line-height: 56.8px;
+}
+.btn-buy.-last {
+    margin-right: 100px;
 }
