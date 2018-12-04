@@ -9,21 +9,37 @@
     float: left;
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
-    margin-right: 310px;
+    text-transform: uppercase;    
 }
 
 .search{
     width: 358px;
     font-size: 20px;
-    font-family: Arial, sans-serif;
-    height: 24px;
-    line-height: 24px;
+    font-family: Arial, sans-serif;    
+    padding: 8px;
     color: #fff;
     background-color: transparent;
     border: none;
-    border-bottom: 1px solid #fff;   
+    border-bottom: 1px solid #fff;
+    margin-right: 5px;   
 }
+
+/* OUTRA MANEIRA DE FAZER O CAMPO BUSCA*/
+/*
+.header-store [type= "search"] {
+    width: 358px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: inherit; 
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    padding: 8px;
+}
+.header-store [type= "search"]::placeholder{
+    color: #fff;
+}
+*/
 
 .header-store > .navigation {
     font-size: 21px;

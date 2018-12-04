@@ -1,6 +1,6 @@
 .description-list {
     display: inline-block;
-    height: 550px;    
+    width: 554px;    
     color: #fff;
     font-family: 'Roboto', Arial, sans-serif;     
 }
@@ -27,7 +27,7 @@
 
 .description-list>.reputation {
     margin-left: 10px;
-    margin-top: 25px;
+    margin-top: 18px;
 }
 
 .price-description>.contrast {
@@ -41,8 +41,7 @@
 
 .description-list>.description-product {
     font-size: 18px;
-    margin-top: 30px;
-    margin-right: 58px;
+    margin-top: 30px;    
     line-height: 30px;
 }
 
