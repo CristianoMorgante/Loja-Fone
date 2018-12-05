@@ -12,6 +12,14 @@
     text-decoration: none;
     border: none;
     margin-right: 38px;
+    transition-duration: 620ms;
+    transition-delay: 30ms;
+}
+
+.btn-buy:hover{
+    background-color: #fff;
+    color: blue;
+    
 }
 
 .btn-buy.-cart{   
@@ -20,5 +28,10 @@
     width: 218px;
     line-height: 56.8px;
     cursor: pointer;
+}
+
+.btn-buy.-cart:hover{
+    background-color: #fff;
+    color: #e24647;
 }
 
