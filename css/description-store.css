@@ -13,6 +13,7 @@
 
 .assessments>.assessments-item {
     margin-right: 9px;
+    cursor: pointer;  
 }
 
 .description-list>.price-description {

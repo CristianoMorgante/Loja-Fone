@@ -2,11 +2,13 @@
 .headphone{
     display: inline-block;
     height: 550px;    
-    margin-top: 122px;   
+    margin-top: 122px; 
+      
 }
 
 .headphone > .img-phone{
     border-radius: 0 150px 150px 0;
     background-color: #fff;
-    padding-left: 105px;    
+    padding-left: 105px; 
+     
 }
