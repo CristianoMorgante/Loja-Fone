@@ -12,14 +12,16 @@
     text-decoration: none;
     border: none;
     margin-right: 38px;
-    transition-duration: 620ms;
+    transition: all 480ms linear;
     transition-delay: 30ms;
 }
 
 .btn-buy:hover{
     background-color: #fff;
-    color: blue;
-    
+    color: #252c41;    
+}
+.btn-buy:active{
+    transform: scale(.9);
 }
 
 .btn-buy.-cart{   
