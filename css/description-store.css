@@ -11,15 +11,24 @@
     margin-bottom: 50px;
 }
 
-.heart {
+.description-list>.heart {
     position: absolute;
     transform: translateX(calc(-100% - 46px));
     top: 25.6%;
+    cursor: pointer;   
 }
+.description-list>.heart>.pulse:hover{
+    transform: scale(1.4);
+}
+
 
 .assessments>.assessments-item {
     margin-right: 9px;
-    cursor: pointer;
+    cursor: pointer;   
+}
+
+.assessments>.assessments-item:hover{
+    transform: scale(1.3);
 }
 
 .description-list>.price-description {
