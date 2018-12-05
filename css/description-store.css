@@ -1,8 +1,8 @@
 .description-list {
     display: inline-block;
-    width: 554px;    
+    width: 554px;
     color: #fff;
-    font-family: 'Roboto', Arial, sans-serif;     
+    font-family: 'Roboto', Arial, sans-serif;
 }
 
 .description-list>.title-description {
@@ -11,9 +11,15 @@
     margin-bottom: 50px;
 }
 
+.heart {
+    position: absolute;
+    transform: translateX(calc(-100% - 46px));
+    top: 25.6%;
+}
+
 .assessments>.assessments-item {
     margin-right: 9px;
-    cursor: pointer;  
+    cursor: pointer;
 }
 
 .description-list>.price-description {
@@ -42,7 +48,7 @@
 
 .description-list>.description-product {
     font-size: 18px;
-    margin-top: 30px;    
+    margin-top: 30px;
     line-height: 30px;
 }
 
