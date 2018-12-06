@@ -18,7 +18,9 @@
     cursor: pointer;   
 }
 .description-list>.heart>.pulse:hover{
-    transform: scale(1.4);
+    transform: scale(1.3);
+    transition:  all 350ms ease-out ;
+    
 }
 
 
@@ -29,6 +31,7 @@
 
 .assessments>.assessments-item:hover{
     transform: scale(1.3);
+    transition: 350ms;
 }
 
 .description-list>.price-description {
