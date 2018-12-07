@@ -1,66 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Loja de Fone</title>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Loja do Fone</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/container-store.css">
-    <link rel="stylesheet" href="css/header-store.css">
-    <link rel="stylesheet" href="css/phone-photo.css">
-    <link rel="stylesheet" href="css/wrap-product.css">
-    <link rel="stylesheet" href="css/description-store.css">
-    <link rel="stylesheet" href="css/action-buttons.css">
-    <link rel="stylesheet" href="css/button.css">
-</head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,700"
+      rel="stylesheet"
+    />
 
-<body>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/container-store.css" />
+    <link rel="stylesheet" href="css/header-store.css" />
+    <link rel="stylesheet" href="css/photo-product.css" />
+    <link rel="stylesheet" href="css/wrap-product.css" />
+    <link rel="stylesheet" href="css/description-product.css" />
+    <link rel="stylesheet" href="css/button-store.css" />
+  </head>
+
+  <body>
     <div class="container-store">
-        <header class="header-store">
-            <h1 class="title">Logo</h1>
+      <header class="header-store">
+        <h1 class="title">Logo</h1>
 
-            <nav class="navigation">
-                <input class="search" type="search" placeholder="Busca">
-                <a class="action" href="http://collabcode.training">Produtos</a>
-                <a class="action" href="http://collabcode.training">Serviços</a>
-                <a class="action" href="http://collabcode.training">Carrinho (10)</a>
-            </nav>
-        </header>
-        <figure class="headphone">
-            <img class="img-phone" src="img/headphone.png" alt="Imagem de um headphone">
-        </figure>
-        <section class="wrap-product">
-            <dl class="description-list">
-                <dt class="title-description">Fone top, feliz e caro</dt>
-                <dd class="heart"><img class="pulse" src="img/heart.png" alt="Imagem de um coração"></dd>
-                <dd class="assessments">
-                    <img class="assessments-item assessments-item-1" src="img/star.png" alt="Icone de estrela">
-                    <img class="assessments-item assessments-item-2" src="img/star.png" alt="Icone de estrela">
-                    <img class="assessments-item assessments-item-3" src="img/star.png" alt="Icone de estrela">
-                    <img class="assessments-item assessments-item-4" src="img/star.png" alt="Icone de estrela">
-                    <img class="assessments-item assessments-item-5" src="img/starempty.png" alt="Icone de estrela">
-                </dd>
-                <dd class="price-description reputation"> 4.0(97)</dd>
-                <dd class="price-description -info"> <strong class="contrast">Frete</strong> C$108</dd>
-                <dd class="price-description -last -info"> <strong class="contrast">Preço</strong> C$340</dd>
-                <dd class="description-product">Fone TOP com um cor feliz que não tem fio. A cor também é algo que
-                      impressiona junto com o seu layout
-                    modernão! Ele é caro? É! Mas compre que você não vai se arrepender e se você se arrepender pode
-                    vender
-                    no mercado livre..kkkk</dd>
-                <dd class="description-product"><a class="more-description" href=""> Saber mais...</a></dd>
-            </dl>
-            <div class="action-buttons">
-                <button class="btn-buy -cart">Adiciona no Carrinho</button>
-                <a href="comprar.html" class="btn-buy ">Comprar</a>
-            </div>
-        </section>
-        
+        <nav class="navigation">
+          <input type="search" placeholder="Buscar" />
+          <a class="action" href="http://collabcode.training">Produtos</a>
+          <a class="action" href="http://collabcode.training">Serviço</a>
+          <a class="action -last" href="http://collabcode.training"
+            >Carrinho (10)</a
+          >
+        </nav>
+      </header>
+
+      <figure class="photo-product">
+        <img src="img/fone.png" alt="Fone de ouvido" />
+      </figure>
+
+      <section class="wrap-product">
+        <dl class="description-product">
+          <dt class="title">Fone top, feliz e caro</dt>
+
+          <dd class="item -heart">
+            <img class="icon" src="img/heart.png" alt="Like" />
+          </dd>
+          <dd class="item -star">
+            <img class="icon" src="img/star-active.png" alt="Estrela" />
+            <img class="icon" src="img/star-active.png" alt="Estrela" />
+            <img class="icon" src="img/star-active.png" alt="Estrela" />
+            <img class="icon" src="img/star-active.png" alt="Estrela" />
+            <img class="icon" src="img/star.png" alt="Estrela" />
+          </dd>
+          <dd class="item">4.0 (97)</dd>
+          <dd class="item -info">
+            <strong class="contrast">Frete</strong> C$ 108
+          </dd>
+          <dd class="item -info -last">
+            <strong class="contrast">Preço</strong> C$ 340
+          </dd>
+          <dd class="text">
+            Fone TOP com um cor feliz que não tem fio. A cor também é algo que
+            impressiona junto com o seu layout modernão! Ele é caro? É! Mas
+            compre que você não vai se arrepender e se você se arrepender pode
+            vender no mercado livre..kkkk
+          </dd>
+          <dd class="text -more">
+            <a href="" class="action">Saber mais...</a>
+          </dd>
+        </dl>
+
+        <div class="buttons">
+          <button class="button-store -second">Adiciona no carrinho</button>
+
+          <a class="button-store" href="comprar.html">Comprar</a>
+        </div>
+      </section>
     </div>
-</body>
-
+  </body>
 </html>

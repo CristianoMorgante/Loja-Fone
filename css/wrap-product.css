@@ -1,6 +1,12 @@
-.wrap-product{
+.wrap-product {
+    display: inline-block;
     width: 554px;
-    height: 554px;    
-    float: right;  
-    vertical-align: middle; 
-}
+    vertical-align: middle;
+    position: relative;
+  }
+  
+  .wrap-product > .buttons {
+    position: absolute;
+    bottom: 0;
+    transform: translateY(calc(100% + 98px));
+  }
