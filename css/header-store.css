@@ -69,6 +69,9 @@
   }
   
   @media (max-width: 1235px) {
+    .header-store{
+      margin-bottom: 60px;
+    }
     .header-store > .title {
       float: none;
       text-align: center;
@@ -85,6 +88,7 @@
     .header-store {
       padding-left: 30px;
       padding-right: 30px;
+      
     }
     .header-store [type="search"] {
       display: none;
