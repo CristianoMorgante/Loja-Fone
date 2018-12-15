@@ -10,3 +10,26 @@
     bottom: 0;
     transform: translateY(calc(100% + 98px));
   }
+
+  @media (max-width:1310px) {
+    .wrap-product{
+      width: 100%;
+    }
+
+    .wrap-product > .buttons{
+      position: static;
+      width: 50%;
+      min-width: 655px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      transform: none;
+    }
+  }
+
+    @media (max-width: 720px) {
+      .wrap-product > .buttons{
+        width: 90%;
+        min-width: auto;
+      }
+    }
