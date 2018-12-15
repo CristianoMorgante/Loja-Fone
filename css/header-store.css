@@ -29,9 +29,13 @@
     padding: 8px;
     width: 358px;
     margin-right: 65px;
-    vertical-align: bottom;
+    vertical-align: bottom;    
   }
-  
+
+  .header-store [type="search"]::placeholder {
+    color: #fff;    
+  }
+ 
   .header-store .action {
     display: inline-block;
     text-decoration: none;
