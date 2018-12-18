@@ -20,6 +20,10 @@
     left: -47px;
     cursor: pointer;
   }
+
+  .description-product > .item.-heart.-active {
+    background-color: #fff;
+  }
   
   .description-product > .item.-star {
     margin-bottom: 10px;
