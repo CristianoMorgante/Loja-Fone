@@ -10,7 +10,7 @@ function handleClick(){
     console.log('Coração');    
 }
 
-function addCar(){
-    console.log('Adicionar ao carrinho');
+function addCar(){    
+    alert("Produto adicionado ao carrinho com sucesso");
 }
 
