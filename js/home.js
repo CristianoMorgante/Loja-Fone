@@ -1,5 +1,5 @@
 let valorInicial = 10;
-const $second = window.document.querySelector(".-second");
+const $second = document.querySelector(".-second");
 
 $second.addEventListener('click', handleClick);
 
