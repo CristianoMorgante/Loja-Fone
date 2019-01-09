@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Loja de Fone</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet" />
@@ -24,13 +25,19 @@
 
       <nav class="navigation">
         <form action="" class="input-search">
-          <input type="search" class="content" placeholder="Buscar" /><!--
-          --><input type="image" class="icon -open -active" src="img/search.svg"><!--
+          <input type="search" class="content" placeholder="Buscar" />
+          <!--
+          --><input type="image" class="icon -open -active" src="img/search.svg">
+          <!-- 
           --><input type="image" class="icon -close" src="img/close.svg">
         </form>
-        <a class="action" href="http://collabcode.training">Produtos</a>
-        <a class="action" href="http://collabcode.training">Serviço</a>
-        <a class="action -last" href="http://collabcode.training">Carrinho (10)</a>
+
+        <div class="menu ">
+          <img class="menuIcon " src="img/menu.svg" alt="Icone Menu hamburguer">
+          <a class="action " href="http://collabcode.training">Produtos</a>
+          <a class="action " href="http://collabcode.training">Serviço</a>
+          <a class="action  -last" href="http://collabcode.training">Carrinho (10)</a>
+        </div>
       </nav>
     </header>
 
@@ -98,7 +105,7 @@
   </div>
   <script src="js/input-search.js"></script>
   <script src="js/description-product.js"></script>
-  <script src="js/home.js"></script>
+  <script src="js/header-store.js"></script>
 </body>
 
 </html>
