@@ -9,5 +9,8 @@ function handleClick() {
   $carrinho.textContent = `Carrinho (${++valorInicial})`;
 }
 
-const $menu = document.querySelector(".menu");
-$menu.addEventListener("click", () => $menu.classList.toggle("-open"));
+const $headerStore = document.querySelector(".header-store");
+const $list = document.querySelector(".list");
+const $menu = $headerStore.querySelector(".-menu");
+
+$menu.addEventListener("click", () => $list.classList.toggle("-active"));

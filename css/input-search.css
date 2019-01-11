@@ -29,11 +29,11 @@
         top: 0;
         left: 0;
         transform: translateX(calc(-100% + 40px));
-        transition: transform 220ms linear;
+        transition: transform 200ms linear;
     }
 
     .input-search.-active {
-        transition: transform 220ms linear;
+        transition: transform 200ms linear;
         transform: translateX(0);
     }
 
@@ -48,24 +48,24 @@
         color: #252c41;
     }
 
-    .input-search > .icon {
+    .input-search>.icon {
         display: none;
         background-color: #ffffff;
         box-sizing: border-box;
         width: 40px;
         height: 40px;
-        padding: 8px;
+        padding: 5px;
         vertical-align: middle;
     }
 
-    .input-search > .icon.-active {
+    .input-search>.icon.-active {
         display: inline-block;
     }
-    
+
 }
 
-@media (max-width: 420px){
-    .input-search > .content {
-        width: 75vw;
+@media (max-width: 420px) {
+    .input-search>.content {
+        width: 70vw;
     }
 }

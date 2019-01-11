@@ -4,14 +4,14 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Loja de Fone</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet" />
   <link rel="stylesheet" href="css/reset.css" />
   <link rel="stylesheet" href="css/base.css" />
   <link rel="stylesheet" href="css/container-store.css" />
   <link rel="stylesheet" href="css/header-store.css" />
-  <link rel="stylesheet" href="css/input-search.css">
+  <link rel="stylesheet" href="css/input-search.css" />
   <link rel="stylesheet" href="css/photo-product.css" />
   <link rel="stylesheet" href="css/wrap-product.css" />
   <link rel="stylesheet" href="css/description-product.css" />
@@ -25,19 +25,23 @@
 
       <nav class="navigation">
         <form action="" class="input-search">
-          <input type="search" class="content" placeholder="Buscar" />
-          <!--
-          --><input type="image" class="icon -open -active" src="img/search.svg">
-          <!-- 
-          --><input type="image" class="icon -close" src="img/close.svg">
+          <input type="search" class="content" placeholder="Buscar" /><!--
+          --><input type="image" class="icon -open -active" src="img/search.svg" /><!-- 
+          --><input type="image" class="icon -close" src="img/close.svg" />
         </form>
 
-        <div class="menu ">
-          <img class="menuIcon " src="img/menu.svg" alt="Icone Menu hamburguer">
-          <a class="action " href="http://collabcode.training">Produtos</a>
-          <a class="action " href="http://collabcode.training">Serviço</a>
-          <a class="action  -last" href="http://collabcode.training">Carrinho (10)</a>
-        </div>
+        <ul id="menu" class="list">
+          <li class="item -menu"><a class="menu" href="#menu"></a>Menu</li>
+          <li class="item">
+            <a class="action" href="http://collabcode.training">Produtos</a>
+          </li>
+          <li class="item">
+            <a class="action" href="http://collabcode.training">Serviço</a>
+          </li>
+          <li class="item -last">
+            <a class="action " href="http://collabcode.training">Carrinho (10)</a>
+          </li>
+        </ul>
       </nav>
     </header>
 
@@ -76,7 +80,6 @@
               <img class="icon -active" src="img/star-active.png" alt="Estrela" />
             </li>
           </ol>
-
         </dd>
         <dd class="item -number">4.0 (97)</dd>
         <dd class="item -info">
